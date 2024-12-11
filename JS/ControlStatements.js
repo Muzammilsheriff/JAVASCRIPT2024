@@ -1,24 +1,42 @@
 // Control Statements
+// Conditional Statements
+// if 
+var a = 15;
+if (a > 10) {
+    document.write("a is greater than 10");
+} 
 
-// if-else Statements
+// if else
 var a = 5;
 if (a > 10) {
-    console.log("a is greater than 10");
+    document.write("a is greater than 10"); // true statements
 } else {
-    console.log("a is less than or equal to 10");
+    document.write("a is less than 10"); // false statements
 }
 
-// Switch Statements
-var day = "Monday";
-switch (day) {
-    case "Monday":
-        console.log("Today is Monday");
+// if else if
+var a = 15;
+if (a > 10) {
+    document.write("a is greater than 10"); // true statements
+} else if (a < 10) {
+    document.write("a is less than 10"); // false statements
+} else if (a == 10) {
+    document.write("a is equal to 10"); // false statements
+} else {
+    document.write("a is not equal to 10"); // false statements
+}
+
+document.write("<br>");
+// switch case
+var a = 'Monday';
+switch (a) {
+    case 'Monday':
+        document.write("a is 10");
         break;
-    case "Tuesday":
-        console.log("Today is Tuesday");
+    case 15:
+        document.write("a is 15");
         break;
     default:
-        console.log("Today is not Monday or Tuesday");
+        document.write("a is not 10 or 15");
         break;
 }
-
