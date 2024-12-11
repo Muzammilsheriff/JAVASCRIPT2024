@@ -1,5 +1,5 @@
 // Control Statements
-/*************  ✨ Codeium Command ⭐  *************/
+
 // if-else Statements
 var a = 5;
 if (a > 10) {
@@ -22,36 +22,3 @@ switch (day) {
         break;
 }
 
-// Loops
-// for loop
-for (var i = 0; i < 5; i++) {
-    console.log(i);
-}
-
-// while loop
-var i = 0;
-while (i < 5) {
-    console.log(i);
-    i++;
-}
-
-// do-while loop
-var i = 0;
-do {
-    console.log(i);
-    i++;
-} while (i < 5);
-
-// Functions
-// Function Declaration
-function add(a, b) {
-    return a + b;
-}
-console.log(add(5, 3));
-
-// Function Expression
-var add = function (a, b) {
-    return a + b;
-}
-console.log(add(5, 3));
-/******  a3f86366-466f-44f1-970f-c4afaaa9c3e1  *******/
